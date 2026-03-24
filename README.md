@@ -1,4 +1,4 @@
-### Visual Ratio
+### Aspect Ratio
 
 A lightweight, client-side Minecraft mod that allows you to change the game's **aspect ratio** independently of the window or screen resolution.
 
@@ -31,9 +31,6 @@ ratioStep = 0.5
 ### IF YOU GOT ISSUE
 
 - Take the your logs in game folder
-- Create the [issue](https://github.com/hxragi/Visual-Ratio/issues) with latest.log 
+- Create the [issue](https://https://github.com/sikiskrali51/Aspect-Ratio/issues) with latest.log 
 - Wait for resolving
 
-### LICENSE
-
-[MIT](LICENSE)
