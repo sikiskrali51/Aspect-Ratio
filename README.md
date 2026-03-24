@@ -1,6 +1,7 @@
 ### Aspect Ratio
 
 A lightweight, client-side Minecraft mod that allows you to change the game's **aspect ratio** independently of the window or screen resolution.
+Use with fabric api and https://modrinth.com/mod/fzzy-config
 
 ### Features 
 
