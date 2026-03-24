@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "visual-ratio",
+	"version": "${version}",
+	"name": "Visual Ratio",
+	"description": "Client-side mod that lets you customize your Minecraft aspect ratio independently from window size.",
+	"authors": [
+		"hxragi"
+	],
+	"contact": {
+		"sources": "https://github.com/hxragi/Visual-Ratio",
+		"issues": "https://github.com/hxragi/Visual-Ratio/issues"
+	},
+	"license": "MIT",
+	"icon": "assets/visual-ratio/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"dev.hxragi.VisualRatio"
+		]
+	},
+	"mixins": [
+		"visual-ratio.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": ">=1.21.11",
+		"java": ">=21",
+		"fabric-api": "*",
+		"fzzy_config": "*"
+	},
+  "suggests": {
+    "modmenu": "*"
+  },
+	"custom": {
+		"fzzy_config": [
+			"visual-ratio"
+		]
+	}
+}
